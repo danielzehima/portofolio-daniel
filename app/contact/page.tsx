@@ -57,7 +57,7 @@ export default function Contact() {
                 id="nom" 
                 name="nom" 
                 required 
-                // C'est ici que j'ai forcé le texte en gris foncé (text-gray-900) et le fond en blanc (bg-white)
+                
                 className="w-full px-4 py-2 border border-gray-300 rounded-lg text-gray-900 bg-white focus:ring-2 focus:ring-blue-600 outline-none transition" 
               />
             </div>
@@ -69,7 +69,7 @@ export default function Contact() {
                 id="email" 
                 name="email" 
                 required 
-                // Idem ici
+                
                 className="w-full px-4 py-2 border border-gray-300 rounded-lg text-gray-900 bg-white focus:ring-2 focus:ring-blue-600 outline-none transition" 
               />
             </div>
@@ -81,7 +81,7 @@ export default function Contact() {
                 name="message" 
                 rows={4} 
                 required 
-                // Et idem ici
+               
                 className="w-full px-4 py-2 border border-gray-300 rounded-lg text-gray-900 bg-white focus:ring-2 focus:ring-blue-600 outline-none transition"
               ></textarea>
             </div>
