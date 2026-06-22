@@ -1,0 +1,32 @@
+name: Vérification Portfolio Next.js
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  verification:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Récupérer le code
+        uses: actions/checkout@v4
+
+      - name: Configurer Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20' # Version stable recommandée pour Next.js
+          cache: 'npm'
+
+      - name: Installer les dépendances
+        run: npm ci # Plus rapide et strict que 'npm install' pour les pipelines
+
+      - name: Vérifier le Lint (Qualité du code)
+        run: npm run lint
+
+      - name: Tester la compilation (Build)
+        run: npm run build
