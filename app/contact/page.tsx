@@ -43,7 +43,7 @@ export default function Contact() {
           <div className="space-y-6">
             <h2 className="text-2xl font-bold text-gray-900">{"Mes Coordonnées"}</h2>
             <div className="space-y-4 text-gray-600">
-              <p>📍 Abidjan, Côte d'Ivoire</p>
+              <p>📍{ "Abidjan, Côte d'Ivoire" }</p>
               <p>📞 +225 07 10 07 52 57</p>
               <p>📧 danielzehima@gmail.com</p>
             </div>
