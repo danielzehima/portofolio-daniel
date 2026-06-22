@@ -11,14 +11,14 @@ export default function Home() {
         <div className="flex justify-center">
           <div className="relative w-32 h-32 md:w-40 md:h-40 rounded-full overflow-hidden border-4 border-white shadow-xl">
             <Image
-              // 2. Le chemin vers ton image dans le dossier public
+             
               src="/photo-daniel.jpg" 
               alt="Photo de Daniel Zéhima"
-              // 3. fill=true permet à l'image de remplir son conteneur parent (le div parent)
+              
               fill
-              // 4. objectCover assure que l'image n'est pas déformée et remplit le cercle
+              
               className="object-cover"
-              // 5. priority=true dit à Next.js de charger cette image très vite (car elle est en haut de page)
+              
               priority 
             />
           </div>

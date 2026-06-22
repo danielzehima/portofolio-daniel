@@ -16,7 +16,7 @@ export async function envoyerMessage(formData: FormData) {
   try {
     const { data, error } = await resend.emails.send({
       from: 'Portfolio Contact <onboarding@resend.dev>', 
-      // L'email où tu vas recevoir les messages
+      
       to: 'danielzehima@gmail.com', 
       subject: `Nouveau message de ${nom} depuis le portfolio`,
       text: `Nouveau message reçu :\n\nNom: ${nom}\nEmail: ${email}\n\nMessage:\n${message}`,
