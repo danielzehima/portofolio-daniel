@@ -35,7 +35,7 @@ export default function Home() {
         </p>
         
         <p className="text-lg text-gray-500 max-w-2xl mx-auto">
-          J&apos;accompagne la digitalisation des processus et je conçois des solutions sur-mesure, de la gestion de chantier à l&apos;automatisation d&apos;outils web.
+          {"J'accompagne la digitalisation des processus et je conçois des solutions sur-mesure, de la gestion de chantier à l'automatisation d'outils web."}
         </p>
 
         {/* Boutons d'action */}

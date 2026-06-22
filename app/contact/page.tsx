@@ -41,7 +41,7 @@ export default function Contact() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 bg-white rounded-2xl shadow-sm border border-gray-100 p-8">
           
           <div className="space-y-6">
-            <h2 className="text-2xl font-bold text-gray-900">Mes Coordonnees</h2>
+            <h2 className="text-2xl font-bold text-gray-900">{"Mes Coordonnées"}</h2>
             <div className="space-y-4 text-gray-600">
               <p>📍 Abidjan, Côte d'Ivoire</p>
               <p>📞 +225 07 10 07 52 57</p>
